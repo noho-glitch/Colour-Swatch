@@ -10,45 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
-import { ValidatorForm, TextValidator } from "react-material-ui-form-validator";
-
-const drawerWidth = 400;
-const styles = theme => ({
-  root: {
-    display: "flex"
-  },
-  appBar: {
-    transition: theme.transitions.create(["margin", "width"], {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.leavingScreen
-    }),
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    height: "64px"
-  },
-  appBarShift: {
-    width: `calc(100% - ${drawerWidth}px)`,
-    marginLeft: drawerWidth,
-    transition: theme.transitions.create(["margin", "width"], {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen
-    })
-  },
-  menuButton: {
-    marginLeft: 12,
-    marginRight: 20
-  },
-  navBtns: {
-    marginRight: "1rem",
-    "& a": {
-      textDecoration: "none"
-    }
-  },
-  button: {
-    margin: "0 0.5rem"
-  }
-});
+import styles from "./PaletteFormNavStyles";
 
 class PaletteFormNav extends Component {
   constructor(props) {
@@ -61,7 +23,7 @@ class PaletteFormNav extends Component {
 
   handleChange(evt) {
     this.setState({
-      [evt.target.name]: evt.target.value
+      [evt.target.name]: evt.target.value,
     });
   }
   showForm() {
@@ -77,38 +39,38 @@ class PaletteFormNav extends Component {
       <div className={classes.root}>
         <CssBaseline />
         <AppBar
-          position='fixed'
-          color='default'
+          position="fixed"
+          color="default"
           className={classNames(classes.appBar, {
-            [classes.appBarShift]: open
+            [classes.appBarShift]: open,
           })}
         >
           <Toolbar disableGutters={!open}>
             <IconButton
-              color='inherit'
-              aria-label='Open drawer'
+              color="inherit"
+              aria-label="Open drawer"
               onClick={this.props.handleDrawerOpen}
               className={classNames(classes.menuButton, open && classes.hide)}
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant='h6' color='inherit' noWrap>
+            <Typography variant="h6" color="inherit" noWrap>
               Create A Palette
             </Typography>
           </Toolbar>
           <div className={classes.navBtns}>
-            <Link to='/'>
+            <Link to="/">
               <Button
-                variant='contained'
-                color='secondary'
+                variant="contained"
+                color="secondary"
                 className={classes.button}
               >
                 Go Back
               </Button>
             </Link>
             <Button
-              variant='contained'
-              color='primary'
+              variant="contained"
+              color="primary"
               onClick={this.showForm}
               className={classes.button}
             >
