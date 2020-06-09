@@ -34,7 +34,6 @@ class PaletteFormNav extends Component {
   }
   render() {
     const { classes, open, palettes, handleSubmit } = this.props;
-    const { newPaletteName } = this.state;
     return (
       <div className={classes.root}>
         <CssBaseline />
