@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/colour-swatch/static/css/main.0508df75.chunk.css",
+    "main.js": "/colour-swatch/static/js/main.1197a3a4.chunk.js",
+    "main.js.map": "/colour-swatch/static/js/main.1197a3a4.chunk.js.map",
+    "runtime-main.js": "/colour-swatch/static/js/runtime-main.90891ae2.js",
+    "runtime-main.js.map": "/colour-swatch/static/js/runtime-main.90891ae2.js.map",
+    "static/css/2.7095f003.chunk.css": "/colour-swatch/static/css/2.7095f003.chunk.css",
+    "static/js/2.7dbe59cc.chunk.js": "/colour-swatch/static/js/2.7dbe59cc.chunk.js",
+    "static/js/2.7dbe59cc.chunk.js.map": "/colour-swatch/static/js/2.7dbe59cc.chunk.js.map",
+    "index.html": "/colour-swatch/index.html",
+    "precache-manifest.65820ed6d8265fb5b4b2248f1fb25153.js": "/colour-swatch/precache-manifest.65820ed6d8265fb5b4b2248f1fb25153.js",
+    "service-worker.js": "/colour-swatch/service-worker.js",
+    "static/css/2.7095f003.chunk.css.map": "/colour-swatch/static/css/2.7095f003.chunk.css.map",
+    "static/css/main.0508df75.chunk.css.map": "/colour-swatch/static/css/main.0508df75.chunk.css.map",
+    "static/js/2.7dbe59cc.chunk.js.LICENSE.txt": "/colour-swatch/static/js/2.7dbe59cc.chunk.js.LICENSE.txt",
+    "static/media/bg.svg": "/colour-swatch/static/media/bg.2601b2b9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90891ae2.js",
+    "static/css/2.7095f003.chunk.css",
+    "static/js/2.7dbe59cc.chunk.js",
+    "static/css/main.0508df75.chunk.css",
+    "static/js/main.1197a3a4.chunk.js"
+  ]
+}
