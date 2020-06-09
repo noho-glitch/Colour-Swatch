@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7ee63a92518799b5c058a7f9ad7fa2c",
+    "revision": "ab0297b79d303bd06731241a84166276",
     "url": "/Colour-Swatch/index.html"
   },
   {
-    "revision": "3d2e7b73f095ce1ac47e",
+    "revision": "d90dc48ae55cd77ba82b",
     "url": "/Colour-Swatch/static/css/2.7095f003.chunk.css"
   },
   {
-    "revision": "4b118fa084e880f13227",
+    "revision": "78a4bc0cfbfd892fba9f",
     "url": "/Colour-Swatch/static/css/main.0508df75.chunk.css"
   },
   {
-    "revision": "3d2e7b73f095ce1ac47e",
-    "url": "/Colour-Swatch/static/js/2.7dbe59cc.chunk.js"
+    "revision": "d90dc48ae55cd77ba82b",
+    "url": "/Colour-Swatch/static/js/2.362504af.chunk.js"
   },
   {
     "revision": "8d15751606bc5f7eee9b708c985803de",
-    "url": "/Colour-Swatch/static/js/2.7dbe59cc.chunk.js.LICENSE.txt"
+    "url": "/Colour-Swatch/static/js/2.362504af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b118fa084e880f13227",
-    "url": "/Colour-Swatch/static/js/main.cad03aac.chunk.js"
+    "revision": "78a4bc0cfbfd892fba9f",
+    "url": "/Colour-Swatch/static/js/main.afeeb291.chunk.js"
   },
   {
     "revision": "2098254454098310de19",
