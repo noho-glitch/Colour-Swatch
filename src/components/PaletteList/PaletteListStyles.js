@@ -43,7 +43,9 @@ export default {
     alignItems: "center",
     color: "grey",
     "& a": {
-      color: "grey"
+      color: "grey",
+      textDecoration: "none",
+      fontWeight: "bold"
     }
   },
   palettes: {
